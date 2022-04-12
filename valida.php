@@ -7,10 +7,11 @@ session_start();
 </head>
 <body>
 <?php
-if ($_SESSION['numeroaleatorio']==$_REQUEST['numero'])
+if ($_SESSION['numeroaleatorio']==$_REQUEST['numero']){
   echo "Ingresó el valor correcto";
-else
+}else{
   echo "Incorrecto";
+}
 ?>
 </body>
 </html>
